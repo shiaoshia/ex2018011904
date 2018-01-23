@@ -8,9 +8,8 @@
     tools:context="tw.com.shiaoshia.ex2018011904.MainActivity">
 
     <LinearLayout
-        android:id="@+id/layout1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -32,6 +31,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
